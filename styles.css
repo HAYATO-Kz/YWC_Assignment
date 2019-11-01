@@ -81,6 +81,11 @@ body {
 }
 
 @media all and (max-width: 576px) {
+  .banner-area {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
   .box {
     background-color: #1c358e;
     font-size: 14px;
