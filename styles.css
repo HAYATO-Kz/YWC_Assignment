@@ -1,7 +1,3 @@
-.navbar-custom-item-center {
-  margin: auto;
-}
-
 .banner-area {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -50,19 +46,20 @@
   margin: 0px;
 }
 
-.footer-img-center {
-  width: 90px;
-  height: 90px;
-}
-
-.footer-img-left {
-  width: 90px;
-  height: 90px;
-}
-
+.footer-img-left,
+.footer-img-center,
 .footer-img-right {
   width: 90px;
   height: 90px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .image-area {
@@ -73,6 +70,10 @@
 .margin-10 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.navbar-custom-item-center {
+  margin: auto;
 }
 
 .prompt-font {
@@ -108,7 +109,8 @@
     font-size: 25px;
   }
 
-  .footer {
+  .footer,
+  .link-footer {
     margin-left: 20px;
   }
 
@@ -136,11 +138,6 @@
   }
 
   .footer-detail {
-    text-align: center;
     font-size: 13px;
-  }
-
-  .link-footer {
-    margin-left: 20px;
   }
 }
