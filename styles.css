@@ -2,20 +2,13 @@
   margin: auto;
 }
 
-.center {
-  text-align: center;
+.banner-area {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.duration-header {
-  margin-top: 30px;
-}
-
-.duration-date {
-  font-size: 46px;
-}
-
-.red-header {
-  color: #e6332a;
+.nowrap {
+  white-space: nowrap;
 }
 
 .box {
@@ -25,22 +18,27 @@
   padding-bottom: 10px;
 }
 
+.center {
+  text-align: center;
+}
+
 .detail-header {
+  color: #e6332a;
   font-size: 36px;
 }
 
-.margin-10 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.duration-date {
+  color: #e6332a;
+  font-size: 38px;
 }
 
-.prompt-font {
-  font-family: "Prompt", sans-serif;
+.duration-header {
+  margin-top: 30px;
 }
 
 .footer {
-  width: 100%;
-  margin: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .footer-detail {
@@ -52,29 +50,36 @@
   margin: 0px;
 }
 
-.footer-img-left {
-  width: 90px;
-  height: 90px;
-}
 .footer-img-center {
   width: 90px;
   height: 90px;
 }
+
+.footer-img-left {
+  width: 90px;
+  height: 90px;
+}
+
 .footer-img-right {
   width: 90px;
   height: 90px;
 }
 
+.image-area {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.margin-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.prompt-font {
+  font-family: "Prompt", sans-serif;
+}
+
 @media all and (max-width: 576px) {
-  .duration-date {
-    font-size: 25px;
-  }
-
-  .footer-header {
-    margin-top: 7px;
-    margin-bottom: 7px;
-  }
-
   .box {
     background-color: #1c358e;
     font-size: 14px;
@@ -86,18 +91,56 @@
     margin-bottom: 5px;
   }
 
+  .detail {
+    font-size: 13px;
+  }
+
+  .detail-body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .detail-header {
+    font-size: 26px;
+  }
+
+  .duration-date {
+    font-size: 25px;
+  }
+
+  .footer {
+    margin-left: 20px;
+  }
+
+  .footer-header {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 14px;
+  }
+
+  .footer-img-center {
+    width: 50px;
+    height: 50px;
+  }
+
   .footer-img-left {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     float: left;
   }
-  .footer-img-center {
-    width: 45px;
-    height: 45px;
-  }
+
   .footer-img-right {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     float: right;
+  }
+
+  .footer-detail {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .link-footer {
+    margin-left: 20px;
   }
 }
