@@ -10,7 +10,6 @@ async function getJson(url) {
 
 $(document).ready(async function() {
   let data = await getJson("https://panjs.com/ywc.json");
-  console.log(data);
   data.navbarItems.forEach(element => {
     $("#navbarItem").append(
       `<li class="nav-item"><a class="nav-link prompt-font" href="${element.href}">${element.label}</a></li>`
